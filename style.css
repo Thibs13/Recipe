@@ -112,3 +112,11 @@ td{
 .nb{
     border: none;
 }
+@media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 40px;
+    }
+    .container{
+        padding: 4%;
+    }
+  }
