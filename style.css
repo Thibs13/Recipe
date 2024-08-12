@@ -1,0 +1,114 @@
+.container{
+    max-width: 1000px;
+    width: 85%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    padding: 3%;
+    margin-top: 5%;
+}
+img{
+    max-width: 100%;
+    border-radius: 16px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.p1{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 19px;
+    color: hsl(30, 10%, 34%);
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    margin-top: 5%;
+}
+.list{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    transform: translateX(30px);
+    color: hsl(30, 10%, 34%);
+}
+.list li{
+    transform: translateX(-15px);
+    margin-top: 2%;
+}
+.list2{
+    font-family: Outfit;
+    font-size: 17px;
+    font-weight: 500;
+    transform: translateX(-10px);
+    color: hsl(30, 10%, 34%);
+}
+.list2 li{
+    margin-top: 2%;
+}
+.list2 li p{
+    transform: translateX(15px);
+}
+HR{
+    width: 100%;
+    margin-top: 3%;
+    opacity: 40%;
+}
+.list3{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    transform: translateX(-15px);
+    
+}
+.list3 li{
+    margin-top: 1%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    transform: translateX(5px);
+}
+.list3 li p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    transform: translateX(15px);
+}
+table{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.right{
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+}
+.left{
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500;
+    transform: translateX(35px);
+}
+.nb{
+    border: none;
+}
